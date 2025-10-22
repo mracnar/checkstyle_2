@@ -40,7 +40,7 @@ jobs:
       - name: Run tests
         run: mvn test
         env:
-          JAVA_TOOL_OPTIONS: -Djava.awt.headless=true
+          JAVA_TOOL_OPTIONS: -Djava.awt.headless=true 
       # ---------------------
 
       - name: Build and analyze
